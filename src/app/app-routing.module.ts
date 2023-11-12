@@ -24,7 +24,7 @@ const routes: Routes = [
       import('./product/product.module').then(m => m.ProductModule)
   },
 
-  //{ path: "**", component: ErrorpageComponent } // Place it at the end
+  { path: "**", component: ErrorpageComponent } // Place it at the end
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

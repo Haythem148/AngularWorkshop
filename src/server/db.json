@@ -1,29 +1,7 @@
 {
   "users": [
     {
-      "idCustomer": 1,
-      "firstName": "Nour",
-      "lastName": " Kunis",
-      "birthDate": "1999-06-30",
-      "accountCategory": "Admin",
-      "email": "mila@kunis.com",
-      "password": "test",
-      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
-      "profession": "Software Engineer"
-    },
-    {
-      "idCustomer": 2,
-      "firstName": "test",
-      "lastName": " Kunis",
-      "birthDate": "1999-06-30",
-      "email": "mila@kunis.com",
-      "password": "test",
-      "profession": "Software Engineer",
-      "accountCategory": "Admin",
-      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png"
-    },
-    {
-      "idCustomer": 3,
+      "id": 3,
       "firstName": "George",
       "lastName": "Cloney",
       "birthDate": "1999-06-30",
@@ -34,26 +12,39 @@
       "picture": "https://bootdey.com/img/Content/avatar/avatar1.png"
     },
     {
-      "idCustomer": 4,
-      "firstName": "Ryan",
-      "lastName": "Gossling",
-      "birthDate": "1999-06-30",
-      "accountCategory": "Golden",
-      "email": "Ryan@nicholson.com",
-      "password": "test",
-      "picture": "https://bootdey.com/img/Content/avatar/avatar4.png",
-      "profession": "Software Engineer"
+      "id": 6,
+      "firstName": "aaaa",
+      "lastName": "aaaa",
+      "email": "haythem.mekki@gmail.com",
+      "password": "Haythem123456789",
+      "profession": "Software Engineer",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "Account": "",
+      "status": "",
+      "accountCategory": ""
     },
     {
-      "idCustomer": 5,
-      "firstName": "Robert",
-      "lastName": "Downey",
-      "birthDate": "1999-06-30",
-      "accountCategory": "Blocked Account",
-      "email": "robert@nicholson.com",
-      "password": "test",
-      "picture": "https://bootdey.com/img/Content/avatar/avatar5.png",
-      "profession": "Software Engineer"
+      "id": 10,
+      "firstName": "aaaaaaaa",
+      "lastName": "aaaaaaaaaaa",
+      "email": "haythem.12mekki@gmail.com",
+      "password": "1213456Hayth",
+      "profession": "1",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "Account": "",
+      "status": "",
+      "accountCategory": ""
+    },
+    {
+      "id": 11,
+      "firstName": "aaaaaaaaaaaaaa",
+      "lastName": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "email": "haythem.12mekki@gmail.com",
+      "password": "1233Haythepk",
+      "profession": "1",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "status": "",
+      "accountCategory": ""
     }
   ]
 }

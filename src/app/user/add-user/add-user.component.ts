@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { UserService } from 'src/app/Core/Services/user.service';
+import { User } from 'src/app/Core/Models/user';
 
 @Component({
   selector: 'app-add-user',
@@ -18,8 +19,8 @@ export class AddUserComponent implements OnInit {
 
   add(form: NgForm) {
     if (form.valid) {
-      const user = {
-        id: "10",
+      const user: User = {
+        id: 0, // ID will be generated automatically
         firstName: form.value.fn,
         lastName: form.value.ln,
         birthDate: form.value.birthDate,
@@ -27,7 +28,6 @@ export class AddUserComponent implements OnInit {
         password: form.value.password,
         profession: form.value.profession,
         picture: "https://bootdey.com/img/Content/avatar/avatar3.png",
-        Account: '',
         status: '',
         accountCategory: ''
       };
