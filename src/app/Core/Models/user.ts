@@ -9,4 +9,5 @@ export class User {
     accountCategory!: string;
     picture!: string;
     status!: string;
+    skills!: string[];
 }

@@ -23,13 +23,14 @@ export class AddUserComponent implements OnInit {
         id: 0, // ID will be generated automatically
         firstName: form.value.fn,
         lastName: form.value.ln,
-        birthDate: form.value.birthDate,
+        birthDate: form.value.Birthdate,
         email: form.value.email,
         password: form.value.password,
         profession: form.value.profession,
         picture: "https://bootdey.com/img/Content/avatar/avatar3.png",
         status: '',
-        accountCategory: ''
+        accountCategory: '',
+        skills: []
       };
 
       this.userService.AddUser(user).subscribe(

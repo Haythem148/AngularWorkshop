@@ -1,50 +1,30 @@
 {
   "users": [
     {
-      "id": 3,
-      "firstName": "George",
-      "lastName": "Cloney",
-      "birthDate": "1999-06-30",
-      "email": "marlon@brando.com",
-      "password": "test",
-      "profession": "Software Engineer",
-      "accountCategory": "Customer",
-      "picture": "https://bootdey.com/img/Content/avatar/avatar1.png"
-    },
-    {
-      "id": 6,
-      "firstName": "aaaa",
-      "lastName": "aaaa",
-      "email": "haythem.mekki@gmail.com",
-      "password": "Haythem123456789",
-      "profession": "Software Engineer",
-      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
-      "Account": "",
-      "status": "",
-      "accountCategory": ""
-    },
-    {
-      "id": 10,
-      "firstName": "aaaaaaaa",
-      "lastName": "aaaaaaaaaaa",
-      "email": "haythem.12mekki@gmail.com",
-      "password": "1213456Hayth",
-      "profession": "1",
-      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
-      "Account": "",
-      "status": "",
-      "accountCategory": ""
-    },
-    {
-      "id": 11,
-      "firstName": "aaaaaaaaaaaaaa",
-      "lastName": "aaaaaaaaaaaaaaaaaaaaaaa",
-      "email": "haythem.12mekki@gmail.com",
-      "password": "1233Haythepk",
+      "id": 4,
+      "firstName": "haythem",
+      "lastName": "mekki",
+      "birthDate": "10/09/1999",
+      "email": "makki@gmail.com",
+      "password": "Haythem123456",
       "profession": "1",
       "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
       "status": "",
-      "accountCategory": ""
+      "accountCategory": "",
+      "skills": []
+    },
+    {
+      "id": 5,
+      "firstName": "haythem",
+      "lastName": "mekki",
+      "birthDate": "10-09-1999",
+      "email": "makki@gmail.com",
+      "password": "Haythem123456",
+      "profession": "1",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "status": "",
+      "accountCategory": "",
+      "skills": []
     }
   ]
 }
