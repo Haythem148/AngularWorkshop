@@ -3,6 +3,7 @@ import { User } from '../../Core/Models/user';
 import { ActivatedRoute, Router } from '@angular/router';
 import { UserService } from 'src/app/Core/Services/user.service';
 
+
 @Component({
   selector: 'app-list-user',
   templateUrl: './list-user.component.html',
@@ -13,6 +14,7 @@ export class ListUserComponent implements OnInit {
   categoryFromUrl: string | undefined;
   filteredUsers: User[] = [];
   user: User[] = [];
+  
 
   constructor(private route: ActivatedRoute, private userS: UserService, private router: Router) { }
 
@@ -39,7 +41,7 @@ export class ListUserComponent implements OnInit {
     const idString = id.toString();
     this.userS.deleteUser(idString).subscribe(() => {
       alert('Deleted Successfully!');
-     
+
       this.userS.getAllusers().subscribe(data => {
         this.user = data;
         this.filteredUsers = this.user;

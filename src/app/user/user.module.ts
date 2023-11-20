@@ -8,10 +8,11 @@ import { UpdateUserComponent } from './update-user/update-user.component';
 import { AddUserComponent } from './add-user/add-user.component';
 import { UserService } from '../Core/Services/user.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PereFilsComponent } from './PereFils/PereFils.component';
 
 
 @NgModule({
-  declarations: [ListUserComponent, MainUserComponent, UpdateUserComponent, AddUserComponent],
+  declarations: [ListUserComponent, MainUserComponent, UpdateUserComponent, AddUserComponent, PereFilsComponent],
   imports: [
     CommonModule,
     UserRoutingModule,

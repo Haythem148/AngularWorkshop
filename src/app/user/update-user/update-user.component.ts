@@ -78,7 +78,7 @@ export class UpdateUserComponent implements OnInit {
   addSkills() {
     this.skills.push(this.formB.control('', Validators.minLength(3)));
     this.i++;
-    alert(this.i + " " + this.size)
+    //alert(this.i + " " + this.size)
 
   }
   addSkillsForEdit(value: any) {

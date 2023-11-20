@@ -4,6 +4,7 @@ import { AddUserComponent } from './add-user/add-user.component';
 import { UpdateUserComponent } from './update-user/update-user.component';
 import { ListUserComponent } from './list-user/list-user.component';
 import { MainUserComponent } from './main-user/main-user.component';
+import { PereFilsComponent } from './PereFils/PereFils.component';
 
 const routes: Routes = [
   { path: '', component: MainUserComponent, children: [{ path: 'users/:category', component: ListUserComponent }] },
